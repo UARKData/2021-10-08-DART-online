@@ -72,7 +72,7 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 
 {% comment %}
 Check SWC curriculum
-{% endcomment %}
+
 
 {% if site.carpentry == "swc" %}
 {% unless site.curriculum == "swc-inflammation" or site.curriculum == "swc-gapminder" %}
@@ -81,7 +81,57 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 </div>
 {% endunless %}
 {% endif %}
+{% endcomment %}
+<strong>The University of Arkansas' participation in the Carpentries is sponsored by the <a href= "https://libraries.uark.edu">University of Arkansas Libraries</a></strong>
 
+<h2>Register Now!</h2>
+<img src = "images/DARTNEW3.png">
+<p>Please select the class of your choice. </p>
+<div class="row">
+<div class="col-md-8">
+  <table>
+<table class="table table-striped">
+<tr> <td>Oct. 27, 2021 1:00-4:30pm CDT</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
+<a id = "s_lc_event_7732968" href="https://uark.libcal.com/event/8296890">Introduction to Unix Shell </a>
+<!-- Below is optional element styling  //-->
+  <style>
+#s_lc_event_7732968 {
+  background: #2774AE;
+  border: 1px solid #2774AE;
+  border-radius: 4px;
+  color: #E7F5F3;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7732968:hover {
+  opacity: 0.9;
+}
+</style>
+</td> </tr>
+      <tr> <td>Oct.29, 1 pm - 4:30pm CDT </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
+<a id="s_lc_event_7732976" href="https://uark.libcal.com/event/8296891">Introduction to Unix Shell </a>
+<!-- Below is optional element styling  //-->
+<style>
+#s_lc_event_7732976 {
+  background: #2774AE;
+  border: 1px solid #2774AE;
+  border-radius: 4px;
+  color: #F7F2F2;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_7732976:hover {
+  opacity: 0.9;
+}
+</style>
+</td> </tr>
+ 
+  </table>
+
+
+{% comment %}
 {% comment %}
 EVENTBRITE
 
@@ -320,7 +370,7 @@ e.g., '2015-06-10-esu'.
 
 Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
-{% endcomment %}
+
 {% if page.collaborative_notes %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
@@ -329,7 +379,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 </p>
 <hr/>
 {% endif %}
-
+{% endcomment %}
 
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
@@ -376,7 +426,7 @@ rows to the table if you wish to break down the schedule
 further. To use this custom schedule here, replace the block
 of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
-{% endcomment %}
+
 
 <h2 id="schedule">Schedule</h2>
 
@@ -390,7 +440,7 @@ of code below the Schedule `<h2>` header below with
 This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
 Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
 {% endif %}
-
+{% endcomment %}
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
 See the contents of the _includes/custom-schedule.html file for an example of
