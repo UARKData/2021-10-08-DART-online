@@ -31,7 +31,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <table>
 <table class="table table-striped">
 <tr> <td>Oct. 27, 2021 1:00-4:30pm CDT</td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627923" matches with the above code: jQuery("#s_lc_event_7627923")  //-->
-<a id = "s_lc_event_7732968" href="https://uark.libcal.com/event/8296890">Introduction to Unix Shell </a>
+<a id = "s_lc_event_7732968" href="https://uark.libcal.com/event/8296890">Python 2 </a>
 <!-- Below is optional element styling  //-->
   <style>
 #s_lc_event_7732968 {
@@ -49,7 +49,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </style>
 </td> </tr>
       <tr> <td>Oct.29, 1 pm - 4:30pm CDT </td>  <td><!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_7627930" matches with the above code: jQuery("#s_lc_event_7627930")  //-->
-<a id="s_lc_event_7732976" href="https://uark.libcal.com/event/8296891">Introduction to Unix Shell </a>
+<a id="s_lc_event_7732976" href="https://uark.libcal.com/event/8296891">Python 2 </a>
 <!-- Below is optional element styling  //-->
 <style>
 #s_lc_event_7732976 {
@@ -71,7 +71,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 
 {% comment %}
-{% comment %}
+
 EVENTBRITE
 
 This block includes the Eventbrite registration widget if
@@ -90,7 +90,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
-
+{% comment %}
 
 <h2 id="general">General Information</h2>
 
