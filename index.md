@@ -386,10 +386,6 @@ please preview your site before committing, and make sure to run
 </p>
 
 
-{% if online != "false" %}
-{% include install_instructions/videoconferencing.html %}
-{% endif %}
-
 {% comment %}
 These are the installation instructions for the tools used
 during the workshop.
