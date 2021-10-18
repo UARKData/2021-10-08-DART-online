@@ -392,7 +392,7 @@ For online workshops, the section below provides:
   the instructions and the videoconferencing
 
 If you do not use Zoom for your online workshop, edit the file
-`_includes/install_instructions/videoconferencing.html`
+'_includes/install_instructions/videoconferencing.html'
 to include the relevant installation instrucctions.
 {% endcomment %}
 {% if online != "false" %}
