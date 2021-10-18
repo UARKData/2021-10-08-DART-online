@@ -390,7 +390,6 @@ For online workshops, the section below provides:
 - recommendations for setting up Learners' workspace so they can follow along
   the instructions and the videoconferencing
 If you do not use Zoom for your online workshop, edit the file
-
 to include the relevant installation instrucctions.
 {% endcomment %}
 {% if online != "false" %}
